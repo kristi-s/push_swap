@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/droslyn/push_swap/ft_sort_stack.c
+push_swap.h
+/Users/droslyn/push_swap/push_swap.h
+
+/Users/droslyn/push_swap/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/Users/droslyn/push_swap/push_swap.h
+unistd.h
+-
+stdio.h
+-
+libft.h
+/Users/droslyn/push_swap/libft.h
+
