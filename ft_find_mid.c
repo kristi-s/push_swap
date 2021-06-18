@@ -17,28 +17,23 @@ void			ft_find_mid(char *str,t_stacks* data)
 	ft_init_array(data);
 
 	qsort(data->arr, data->count, sizeof(int), &compare);	// !!!!!  TODO заменить сортировку
-	// ----delete !!!
-//	for(int i = 0; i < data->count; i++)
-//	{
-//		printf("arr: %d\n", data->arr[i]);
-//	}
+	ft_check_repeat(data);
 
 	if (data->count % 2 == 0)
 		half_count = data->count / 2 - 1;
 	else
 		half_count = data->count / 2;
 
-	printf("half_count = %d\n", half_count); // TODO delete this
 
 	data->mid_1 = data->arr[half_count];
 
 	if (data->count % 2 == 0)
 		half_count++;
-	printf("half_count = %d\n", half_count);
+
 	if (half_count % 2 == 0)
-		half_count = half_count / 2 - 1;
+		half_count = half_count + (half_count / 2 - 1);
 	else
-		half_count = half_count / 2;
+		half_count = half_count + (half_count / 2);
 
 	data->mid_2 = data->arr[half_count];
 }

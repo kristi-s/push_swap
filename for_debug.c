@@ -34,12 +34,12 @@ void ft_print_stack_B(t_stacks* data)
 void proverka(t_stacks* data)
 {
 	ft_print_stack_A(data);
-	op_swap(&data->stack_A);
+	op_swap(&data->stack_A, 1);
 	printf("after swap A:\n");
 	ft_print_stack_A(data);
-	op_push(&data->stack_A, &data->stack_B);
-	op_push(&data->stack_A, &data->stack_B);
-	op_push(&data->stack_A, &data->stack_B);
+	op_push(&data->stack_A, &data->stack_B, 2);
+	op_push(&data->stack_A, &data->stack_B, 2);
+	op_push(&data->stack_A, &data->stack_B, 2);
 	printf("after push from A to B:\n");
 	ft_print_stack_A(data);
 	ft_print_stack_B(data);

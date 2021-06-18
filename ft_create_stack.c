@@ -16,11 +16,10 @@ void	ft_creat_stack(char *str)
 
 	data = ft_init_struct();
 	ft_creat_stack_A(str, data);
-	if (data->count > 5)
-		ft_find_mid(str, data);
+//	if (data->count > 5)
+//		ft_find_mid(str, data);
 //	TODO дописать сортировку если мало элементов
 
-	printf("mid_1 = %d \t mid_2 = %d\n", data->mid_1, data->mid_2);
 
 	ft_sort_stack(data);
 
