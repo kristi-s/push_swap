@@ -31,8 +31,10 @@ void			ft_find_mid(char *str,t_stacks* data)
 		half_count++;
 
 	if (half_count % 2 == 0)
+//		half_count = (half_count / 2 - 1);
 		half_count = half_count + (half_count / 2 - 1);
 	else
+//		half_count = (half_count / 2);
 		half_count = half_count + (half_count / 2);
 
 	data->mid_2 = data->arr[half_count];

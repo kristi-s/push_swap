@@ -9,7 +9,7 @@ void	ft_sort_stack(t_stacks* data)
 	t_list*	lst;
 
 	ft_divide_stack(data);
-//	ft_merge_stack(data);
+	ft_merge_stack(data);
 //	ft_less_min(data);
 //	ft_more_max(data);
 //	ft_insert(data);
@@ -20,6 +20,7 @@ void	ft_sort_stack(t_stacks* data)
 		ft_less_min(data);
 		ft_more_max(data);
 		ft_insert(data);
+		//ft_print_stack_A(data); // TODO delete this!!!!
 	}
 
 	if (*(int*)(data->stack_A->content) != data->min)
@@ -50,25 +51,25 @@ void	ft_divide_stack(t_stacks* data)
 	int i = 0;
 
 	lst = data->stack_A;
-//	while (i < data->count)
-//	{
-//		if (*(int*)lst->content < data->mid_1)
-//			op_push(&data->stack_A, &data->stack_B, 2);
-//		else
-//			op_rotate(&data->stack_A, 1);
-//		lst = data->stack_A;
-//		i++;
-//	}
-//	i = ft_lstsize(data->stack_A);
-//	while (i > 2)
-//	{
-//		if (*(int*)lst->content <= data->mid_2)
-//			op_push(&data->stack_A, &data->stack_B, 2);
-//		else
-//			op_rotate(&data->stack_A, 1);
-//		lst = data->stack_A;
-//		i--;
-//	}
+	while (i < data->count)
+	{
+		if (*(int*)lst->content < data->mid_1)
+			op_push(&data->stack_A, &data->stack_B, 2);
+		else
+			op_rotate(&data->stack_A, 1);
+		lst = data->stack_A;
+		i++;
+	}
+	i = ft_lstsize(data->stack_A);
+	while (i > 2)
+	{
+		if (*(int*)lst->content <= data->mid_2)
+			op_push(&data->stack_A, &data->stack_B, 2);
+		else
+			op_rotate(&data->stack_A, 1);
+		lst = data->stack_A;
+		i--;
+	}
 	i = ft_lstsize(data->stack_A);
 	while (i > 2)
 	{
@@ -124,18 +125,26 @@ void	ft_less_min(t_stacks* data)
 {
 	int num_b1;
 	size_t size_a;
+	t_list* lst;
 
 	while (data->stack_B)
 	{
 		num_b1 = *(int *) (data->stack_B->content);
 		if (num_b1 < data->min) {
+			lst = data->stack_A;
+			data->i = 0;
+			while (*(int*)lst->content != data->min)
+			{
+				data->i++;
+				lst = lst->next;
+			}
 			if (data->i != 0)
 			{
 				size_a = ft_lstsize(data->stack_A);
-				if (data->i <= size_a - data->i)
-					op_count_reverse_rotate(&data->stack_A, data->i, 1);
+				if (data->i < size_a - data->i)
+					op_count_rotate(&data->stack_A, data->i, 1);
 				else
-					op_count_rotate(&data->stack_A, size_a -  data->i, 1);
+					op_count_reverse_rotate(&data->stack_A, size_a -  data->i, 1);
 			}
 			op_push(&data->stack_B, &data->stack_A, 1);
 			data->min = num_b1;
@@ -149,20 +158,35 @@ void 	ft_more_max(t_stacks* data)
 {
 	int num_b1;
 	size_t size_a;
+	t_list* lst;
 
 	while (data->stack_B)
 	{
 		num_b1 = *(int *) (data->stack_B->content);
 		if (num_b1 > data->max) {
+			// найти расположение мах
+			lst = data->stack_A;
+			data->i = 0;
+			while (*(int*)lst->content != data->max)
+			{
+				data->i++;
+				lst = lst->next;
+			}
 			if (data->i != 0)
 			{
 				size_a = ft_lstsize(data->stack_A);
-				if (data->i <= size_a - data->i)
-					op_count_reverse_rotate(&data->stack_A, data->i, 1);
-				else
-					op_count_rotate(&data->stack_A, size_a -  data->i, 1);
+				if (data->i < size_a - data->i) {
+					op_count_rotate(&data->stack_A, data->i, 1);
+					op_push(&data->stack_B, &data->stack_A, 1);
+					op_swap(&data->stack_A, 1);
+				}
+				else {
+					op_count_reverse_rotate(&data->stack_A, size_a -  data->i, 1);
+					op_push(&data->stack_B, &data->stack_A, 1);
+				}
+
 			}
-			op_push(&data->stack_B, &data->stack_A, 1);
+
 			if (data->stack_B->next && (*(int *)(data->stack_B->next->content) < num_b1) &&
 					(*(int *)(data->stack_B->next->content) > data->max))
 			{
@@ -170,7 +194,7 @@ void 	ft_more_max(t_stacks* data)
 				op_push(&data->stack_B, &data->stack_A, 1);
 				op_rotate(&data->stack_A, 1);
 			}
-			op_rotate(&data->stack_A, 1);
+//			op_rotate(&data->stack_A, 1);
 			data->max = num_b1;
 		}
 		else
@@ -208,7 +232,7 @@ void 	ft_insert(t_stacks* data) {
 		{
 			num_a2 = *(int*)lst->next->content;
 			data->i++;
-			if (data->i <= size_a - data->i)
+			if (data->i < size_a - data->i)
 				op_count_rotate(&data->stack_A, data->i, 1);
 			else
 				op_count_reverse_rotate(&data->stack_A, size_a - data->i, 1);

@@ -22,6 +22,8 @@ typedef struct	s_stacks
 	int 		i;
 }				t_stacks;
 
+int count_steps;
+
 int				ft_error(void);
 void			ft_creat_stack(char *str);
 int				ft_check_arg(char *str);

@@ -30,6 +30,7 @@ void	op_swap(t_list** lst, int flag_write)
 		write(1, "sa\n", 3);
 	else if (flag_write == 2)
 		write(1, "sb\n", 3);
+	count_steps++;
 }
 
 void	op_swap_all(t_list**	lst_A, t_list**	lst_B)
@@ -37,6 +38,7 @@ void	op_swap_all(t_list**	lst_A, t_list**	lst_B)
 	op_swap(lst_A, 0);
 	op_swap(lst_B, 0);
 	write(1, "rr\n", 3);
+	count_steps++;
 }
 
 void 	op_push(t_list**	lst_A, t_list**	lst_B, int flag_write) // from A to B
@@ -55,6 +57,7 @@ void 	op_push(t_list**	lst_A, t_list**	lst_B, int flag_write) // from A to B
 		write(1, "pa\n", 3);
 	else if (flag_write == 2)
 		write(1, "pb\n", 3);
+	count_steps++;
 }
 
 void	op_rotate(t_list**	lst, int flag_write)
@@ -74,6 +77,8 @@ void	op_rotate(t_list**	lst, int flag_write)
 		write(1, "ra\n", 3);
 	else if (flag_write == 2)
 		write(1, "rb\n", 3);
+	count_steps++;
+
 }
 
 void	op_rotate_all(t_list**	lst_A, t_list**	lst_B)
@@ -81,6 +86,7 @@ void	op_rotate_all(t_list**	lst_A, t_list**	lst_B)
 	op_rotate(lst_A, 0);
 	op_rotate(lst_B, 0);
 	write(1, "rr\n", 3);
+	count_steps++;
 }
 
 void	op_reverse_rotate(t_list**	lst, int flag_write)
@@ -104,6 +110,7 @@ void	op_reverse_rotate(t_list**	lst, int flag_write)
 		write(1, "rra\n", 4);
 	else if (flag_write == 2)
 		write(1, "rrb\n", 4);
+	count_steps++;
 }
 
 void	op_reverse_rotate_all(t_list**	lst_A, t_list**	lst_B)
@@ -111,6 +118,7 @@ void	op_reverse_rotate_all(t_list**	lst_A, t_list**	lst_B)
 	op_reverse_rotate(lst_A, 0);
 	op_reverse_rotate(lst_B, 0);
 	write(1, "rrr\n", 4);
+	count_steps++;
 }
 
 void 	op_count_rotate(t_list** lst, int count, int flag_write)
