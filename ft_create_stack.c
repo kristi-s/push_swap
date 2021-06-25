@@ -33,6 +33,8 @@ void	ft_creat_stack_A(char *str, t_stacks* data)
 	int* num;
 	int	n;
 	t_list* new_list;
+	int max_1 = 0;
+	int min;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -40,6 +42,10 @@ void	ft_creat_stack_A(char *str, t_stacks* data)
 		if (ft_isdigit(str[i]) || str[i] == '-')
 		{
 			n = ft_atoi(&str[i]);
+			if (i == 0 || n > max_1)
+				max_1 = n;
+			if (i == 0 || n < min)
+				min = n;
 			num = ft_new_int_content(n);
 			new_list = ft_lstnew(num);
 			if (!new_list)
@@ -58,4 +64,7 @@ void	ft_creat_stack_A(char *str, t_stacks* data)
 		else
 			i++;
 	}
+	data->max = max_1;
+	data->min = min;
+	printf("max = %d\t min = %d\n", data->max, data->min);
 }

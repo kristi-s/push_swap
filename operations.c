@@ -123,26 +123,39 @@ void	op_reverse_rotate_all(t_list**	lst_A, t_list**	lst_B)
 
 void 	op_count_rotate(t_list** lst, int count, int flag_write)
 {
-	int i;
-	i = count;
-	while (i > 0)
+	while (count > 0)
 	{
 		op_rotate(lst, flag_write);
-		i--;
+		count--;
 	}
 }
 
 void 	op_count_reverse_rotate(t_list** lst, int count, int flag_write)
 {
-	int i;
-	i = count;
-	while (i > 0)
+	while (count > 0)
 	{
 		op_reverse_rotate(lst, flag_write);
-		i--;
+		count--;
 	}
 }
 
+void 	op_count_rotate_all(t_stacks* data, int count)
+{
+	while (count > 0)
+	{
+		op_rotate_all(&data->stack_A, &data->stack_B);
+		count--;
+	}
+}
+
+void 	op_count_reverse_rotate_all(t_stacks* data, int count)
+{
+	while (count > 0)
+	{
+		op_reverse_rotate_all(&data->stack_A, &data->stack_B);
+		count--;
+	}
+}
 
 
 

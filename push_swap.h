@@ -5,6 +5,8 @@
 #ifndef PUSH_SWAP_PUSH_SWAP_H
 #define PUSH_SWAP_PUSH_SWAP_H
 
+#define STACK_A 1
+#define STACK_B 2
 #include <unistd.h>
 #include <stdio.h>
 #include "libft.h"
@@ -19,6 +21,7 @@ typedef struct	s_stacks
 	int*		arr;
 	int			min;
 	int			max;
+	int 		pre_max;
 	int 		i;
 }				t_stacks;
 
@@ -47,6 +50,17 @@ void ft_print_stack_B(t_stacks* data);
 void proverka(t_stacks* data);
 //
 
+// ==== new version
+void	ft_creat_stack_new(char *str);
+void 	ft_find_max_2(t_stacks* data);
+void 	ft_divide_stack_2(t_stacks* data);
+void 	ft_sort_stack_2(t_stacks* data);
+int 	ft_analise_op(t_stacks* data, int i);
+int 	ft_analise_op_rev(t_stacks* data, int i);
+int 	ft_lst_take_content(t_list** ptr_lst, int i);
+int 	ft_find_count_ra(t_stacks* data, int num_b);
+void 	ft_do_push(t_stacks* data, int i);
+
 // operations
 void		op_swap(t_list** lst, int flag_write);
 void		op_swap_all(t_list** lst_A, t_list** lst_B);
@@ -57,5 +71,7 @@ void		op_reverse_rotate(t_list** lst, int flag_write);
 void		op_reverse_rotate_all(t_list**	lst_A, t_list**	lst_B);
 void 		op_count_rotate(t_list** lst, int count, int flag_write);
 void		op_count_reverse_rotate(t_list** lst, int count, int flag_write);
+void 	op_count_rotate_all(t_stacks* data, int count);
+void 	op_count_reverse_rotate_all(t_stacks* data, int count);
 
 #endif //PUSH_SWAP_PUSH_SWAP_H

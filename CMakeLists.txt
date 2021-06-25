@@ -19,5 +19,6 @@ add_executable(push_swap
         for_debug.c
         ft_find_mid.c
         ft_sort_stack.c
+        ft_create_stack_2.c
         main.c
         push_swap.h)

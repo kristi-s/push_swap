@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/for_debug.c.o"
   "CMakeFiles/push_swap.dir/ft_check_arg.c.o"
   "CMakeFiles/push_swap.dir/ft_create_stack.c.o"
+  "CMakeFiles/push_swap.dir/ft_create_stack_2.c.o"
   "CMakeFiles/push_swap.dir/ft_error.c.o"
   "CMakeFiles/push_swap.dir/ft_find_mid.c.o"
   "CMakeFiles/push_swap.dir/ft_sort_stack.c.o"

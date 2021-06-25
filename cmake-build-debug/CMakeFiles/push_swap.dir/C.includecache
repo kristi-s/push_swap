@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/droslyn/push_swap/ft_sort_stack.c
+/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_create_stack_2.c
 push_swap.h
-/Users/droslyn/push_swap/push_swap.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
 
-/Users/droslyn/push_swap/libft.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/libft.h
 string.h
 -
 stdlib.h
@@ -18,11 +18,15 @@ stdlib.h
 unistd.h
 -
 
-/Users/droslyn/push_swap/push_swap.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/main.c
+push_swap.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
+
+/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
 unistd.h
 -
 stdio.h
 -
 libft.h
-/Users/droslyn/push_swap/libft.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/libft.h
 
