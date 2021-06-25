@@ -16,12 +16,13 @@ void	ft_creat_stack_new(char *str)
 	data = ft_init_struct();
 	ft_creat_stack_A(str, data);
 	ft_find_max_2(data);
+	ft_find_mid(str, data);
 	ft_divide_stack_2(data);
 	while (data->stack_B)
 		ft_sort_stack_2(data);
-	
-	ft_print_stack_A(data);
-	ft_print_stack_B(data);
+	ft_find_start_A(data);
+//	ft_print_stack_A(data);
+//	ft_print_stack_B(data);
 }
 
 void 	ft_find_max_2(t_stacks* data)
@@ -43,22 +44,31 @@ void 	ft_find_max_2(t_stacks* data)
 		lst = lst->next;
 	}
 	data->pre_max = pre_max;
-	printf("pre_max = %d\n", data->pre_max);
+//	printf("pre_max = %d\n", data->pre_max);
 }
 
 void 	ft_divide_stack_2(t_stacks* data)
 {
 	int num_a;
 	size_t size;
+	int first_el;
 
 	num_a = *(int*)data->stack_A->content;
-	if(num_a == data->max)
+	if(num_a == data->max) {
 		op_rotate(&data->stack_A, STACK_A);
+		num_a = *(int*)data->stack_A->content;
+	}
 	size = ft_lstsize(data->stack_A);
+	first_el = num_a;
 	while (size > 2)
 	{
-		if (num_a < data->pre_max)
+		if (num_a < data->pre_max) {
 			op_push(&data->stack_A, &data->stack_B, STACK_B);
+			//dopolnenie
+			if (num_a != first_el && num_a < data->mid_1)
+//			if (num_a < first_el)
+				op_rotate(&data->stack_B, STACK_B);
+		}
 		else
 			op_rotate(&data->stack_A, STACK_A);
 		num_a = *(int*)data->stack_A->content;
@@ -166,7 +176,7 @@ int 	ft_analise_op(t_stacks* data, int i)
 			rrb = rrb - rrr;
 		}
 	}
-	printf("rb: %d\t ra: %d\t rr: %d\t rra: %d\t rrb: %d\t rrr: %d\n", rb, ra, rr, rra, rrb, rrr);
+//	printf("rb: %d\t ra: %d\t rr: %d\t rra: %d\t rrb: %d\t rrr: %d\n", rb, ra, rr, rra, rrb, rrr);
 	return (rb + ra + rr + rra + rrb + rrr);
 
 }
@@ -273,4 +283,27 @@ void 	ft_do_push(t_stacks* data, int i)
 	op_count_reverse_rotate(&data->stack_A, rra, STACK_A);
 	op_count_reverse_rotate(&data->stack_B, rrb, STACK_B);
 	op_push(&data->stack_B, &data->stack_A, STACK_A);
+}
+
+void 	ft_find_start_A(t_stacks* data)
+{
+	size_t size_a;
+	t_list*	lst;
+
+	if (*(int*)(data->stack_A->content) != data->min)
+	{
+		data->i = 0;
+		lst = data->stack_A;
+		size_a = ft_lstsize(data->stack_A);
+		while (lst && *(int*)(lst->content) != data->min)
+		{
+			lst = lst->next;
+			data->i++;
+		}
+
+		if (data->i <= size_a - data->i)
+			op_count_rotate(&data->stack_A, data->i, 1);
+		else
+			op_count_reverse_rotate(&data->stack_A, size_a -  data->i, 1);
+	}
 }

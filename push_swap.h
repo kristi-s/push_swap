@@ -60,6 +60,7 @@ int 	ft_analise_op_rev(t_stacks* data, int i);
 int 	ft_lst_take_content(t_list** ptr_lst, int i);
 int 	ft_find_count_ra(t_stacks* data, int num_b);
 void 	ft_do_push(t_stacks* data, int i);
+void 	ft_find_start_A(t_stacks* data);
 
 // operations
 void		op_swap(t_list** lst, int flag_write);

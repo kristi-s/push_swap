@@ -40,9 +40,9 @@ void	ft_sort_stack(t_stacks* data)
 			op_count_reverse_rotate(&data->stack_A, size_a -  data->i, 1);
 	}
 
-	printf("after ft_divide_stack and ft_merge_stack:\n");
-	ft_print_stack_A(data);
-	ft_print_stack_B(data);
+//	printf("after ft_divide_stack and ft_merge_stack:\n");
+//	ft_print_stack_A(data);
+//	ft_print_stack_B(data);
 }
 
 void	ft_divide_stack(t_stacks* data)

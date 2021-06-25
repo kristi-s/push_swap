@@ -66,5 +66,5 @@ void	ft_creat_stack_A(char *str, t_stacks* data)
 	}
 	data->max = max_1;
 	data->min = min;
-	printf("max = %d\t min = %d\n", data->max, data->min);
+//	printf("max = %d\t min = %d\n", data->max, data->min);
 }

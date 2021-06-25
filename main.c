@@ -12,6 +12,6 @@ int		main(int argc, char **argv)
 	else
 		return (ft_error());
 
-	printf("steps = %d\n", count_steps);
+//	printf("steps = %d\n", count_steps);
 }
 
