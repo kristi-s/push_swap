@@ -35,8 +35,3 @@ t_stacks*	ft_init_struct()
 	new_data->arr = NULL;
 	return new_data;
 }
-
-int*	ft_create_array(data)
-{
-
-}

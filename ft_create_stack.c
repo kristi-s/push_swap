@@ -4,7 +4,7 @@
 #include "push_swap.h"
 
 
-
+/*
 void	ft_creat_stack(char *str)
 {
 	t_stacks* data;
@@ -17,7 +17,7 @@ void	ft_creat_stack(char *str)
 	data = ft_init_struct();
 	ft_creat_stack_A(str, data);
 	if (data->count > 5)
-		ft_find_mid(str, data);
+		ft_find_mid(data);
 //	TODO дописать сортировку если мало элементов
 
 
@@ -25,7 +25,7 @@ void	ft_creat_stack(char *str)
 
 //	proverka(data); // delete this !!!
 
-}
+}*/
 
 void	ft_creat_stack_A(char *str, t_stacks* data)
 {

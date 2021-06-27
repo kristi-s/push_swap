@@ -41,6 +41,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_putstr_fd.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_split.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_split.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strchr.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strchr.c.o"
+  "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strcmp.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strdup.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strdup.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strjoin.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strlcat.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o"
@@ -55,6 +56,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_tolower.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_toupper.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/main.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/op_few_cmd.c.o"
+  "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/op_rotate.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/operations.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/operations.c.o"
   "/Users/kristinasmirnova/21_school/new_push_swap — копия/utility.c" "/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles/push_swap.dir/utility.c.o"
   )

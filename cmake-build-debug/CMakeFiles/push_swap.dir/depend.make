@@ -112,6 +112,9 @@ CMakeFiles/push_swap.dir/libft/ft_split.c.o: ../libft/libft.h
 
 CMakeFiles/push_swap.dir/libft/ft_strchr.c.o: ../libft/ft_strchr.c
 
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.o: ../libft/libft.h
 
@@ -152,6 +155,14 @@ CMakeFiles/push_swap.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
 CMakeFiles/push_swap.dir/main.c.o: ../libft.h
 CMakeFiles/push_swap.dir/main.c.o: ../main.c
 CMakeFiles/push_swap.dir/main.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.dir/op_few_cmd.c.o: ../libft.h
+CMakeFiles/push_swap.dir/op_few_cmd.c.o: ../op_few_cmd.c
+CMakeFiles/push_swap.dir/op_few_cmd.c.o: ../push_swap.h
+
+CMakeFiles/push_swap.dir/op_rotate.c.o: ../libft.h
+CMakeFiles/push_swap.dir/op_rotate.c.o: ../op_rotate.c
+CMakeFiles/push_swap.dir/op_rotate.c.o: ../push_swap.h
 
 CMakeFiles/push_swap.dir/operations.c.o: ../libft.h
 CMakeFiles/push_swap.dir/operations.c.o: ../operations.c

@@ -94,7 +94,7 @@ void	ft_merge_stack(t_stacks* data)
 	if (num_a1 > num_a2)
 	{
 		if (num_b1 > num_b2)
-			op_swap_all(&data->stack_A, &data->stack_B);
+			op_swap_all(&data->stack_A, &data->stack_B, WRITE);
 		else
 		{
 			if (num_b1 < num_a1 && num_b1 > num_a2)

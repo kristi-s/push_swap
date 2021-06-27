@@ -47,7 +47,7 @@ void proverka(t_stacks* data)
 	//	printf("after push from B to A:\n");
 	//	ft_print_stack_A(data);
 	//	ft_print_stack_B(data);
-	op_reverse_rotate_all(&data->stack_A, &data->stack_B);
+//	op_reverse_rotate_all(&data->stack_A, &data->stack_B);
 	printf("after rev_rotate A:\n");
 	ft_print_stack_A(data);
 	ft_print_stack_B(data);

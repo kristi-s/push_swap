@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_create_stack_2.c
-push_swap.h
-/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
-
 /Users/kristinasmirnova/21_school/new_push_swap — копия/libft.h
 string.h
 -
@@ -17,6 +13,14 @@ stdlib.h
 -
 unistd.h
 -
+
+/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c
+push_swap.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
+
+/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c
+push_swap.h
+/Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
 
 /Users/kristinasmirnova/21_school/new_push_swap — копия/push_swap.h
 unistd.h

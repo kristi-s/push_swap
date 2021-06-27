@@ -1142,6 +1142,33 @@ libft/ft_strchr.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_strchr.c.s
 .PHONY : libft/ft_strchr.c.s
 
+libft/ft_strcmp.o: libft/ft_strcmp.c.o
+
+.PHONY : libft/ft_strcmp.o
+
+# target to build an object file
+libft/ft_strcmp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o
+.PHONY : libft/ft_strcmp.c.o
+
+libft/ft_strcmp.i: libft/ft_strcmp.c.i
+
+.PHONY : libft/ft_strcmp.i
+
+# target to preprocess a source file
+libft/ft_strcmp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_strcmp.c.i
+.PHONY : libft/ft_strcmp.c.i
+
+libft/ft_strcmp.s: libft/ft_strcmp.c.s
+
+.PHONY : libft/ft_strcmp.s
+
+# target to generate assembly for a file
+libft/ft_strcmp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_strcmp.c.s
+.PHONY : libft/ft_strcmp.c.s
+
 libft/ft_strdup.o: libft/ft_strdup.c.o
 
 .PHONY : libft/ft_strdup.o
@@ -1520,6 +1547,60 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
 
+op_few_cmd.o: op_few_cmd.c.o
+
+.PHONY : op_few_cmd.o
+
+# target to build an object file
+op_few_cmd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_few_cmd.c.o
+.PHONY : op_few_cmd.c.o
+
+op_few_cmd.i: op_few_cmd.c.i
+
+.PHONY : op_few_cmd.i
+
+# target to preprocess a source file
+op_few_cmd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_few_cmd.c.i
+.PHONY : op_few_cmd.c.i
+
+op_few_cmd.s: op_few_cmd.c.s
+
+.PHONY : op_few_cmd.s
+
+# target to generate assembly for a file
+op_few_cmd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_few_cmd.c.s
+.PHONY : op_few_cmd.c.s
+
+op_rotate.o: op_rotate.c.o
+
+.PHONY : op_rotate.o
+
+# target to build an object file
+op_rotate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_rotate.c.o
+.PHONY : op_rotate.c.o
+
+op_rotate.i: op_rotate.c.i
+
+.PHONY : op_rotate.i
+
+# target to preprocess a source file
+op_rotate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_rotate.c.i
+.PHONY : op_rotate.c.i
+
+op_rotate.s: op_rotate.c.s
+
+.PHONY : op_rotate.s
+
+# target to generate assembly for a file
+op_rotate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/op_rotate.c.s
+.PHONY : op_rotate.c.s
+
 operations.o: operations.c.o
 
 .PHONY : operations.o
@@ -1694,6 +1775,9 @@ help:
 	@echo "... libft/ft_strchr.o"
 	@echo "... libft/ft_strchr.i"
 	@echo "... libft/ft_strchr.s"
+	@echo "... libft/ft_strcmp.o"
+	@echo "... libft/ft_strcmp.i"
+	@echo "... libft/ft_strcmp.s"
 	@echo "... libft/ft_strdup.o"
 	@echo "... libft/ft_strdup.i"
 	@echo "... libft/ft_strdup.s"
@@ -1736,6 +1820,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... op_few_cmd.o"
+	@echo "... op_few_cmd.i"
+	@echo "... op_few_cmd.s"
+	@echo "... op_rotate.o"
+	@echo "... op_rotate.i"
+	@echo "... op_rotate.s"
 	@echo "... operations.o"
 	@echo "... operations.i"
 	@echo "... operations.s"

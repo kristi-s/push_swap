@@ -16,7 +16,7 @@ void	ft_creat_stack_new(char *str)
 	data = ft_init_struct();
 	ft_creat_stack_A(str, data);
 	ft_find_max_2(data);
-	ft_find_mid(str, data);
+	ft_find_mid(data);
 	ft_divide_stack_2(data);
 	while (data->stack_B)
 		ft_sort_stack_2(data);
@@ -81,12 +81,12 @@ void 	ft_divide_stack_2(t_stacks* data)
 
 void 	ft_sort_stack_2(t_stacks* data)
 {
-	int i = 0;
+	size_t i = 0;
 	size_t size_b;
-	int min = 1;
+	size_t min = 1;
 
-	int count;
-	int save_i;
+	size_t count;
+	size_t save_i;
 
 	size_b = ft_lstsize(data->stack_B);
 
@@ -121,12 +121,12 @@ void 	ft_sort_stack_2(t_stacks* data)
 
 int 	ft_analise_op(t_stacks* data, int i)
 {
-	int 	rb;
-	int 	ra;
-	int 	rra = 0;
-	int		rrb = 0;
-	int 	rr = 0;
-	int 	rrr = 0;
+	size_t	rb;
+	size_t	ra;
+	size_t	rra = 0;
+	size_t	rrb = 0;
+	size_t 	rr = 0;
+	size_t 	rrr = 0;
 	int 	num_b;
 	size_t 	size_a;
 	size_t 	size_b;
@@ -220,12 +220,12 @@ int 	ft_find_count_ra(t_stacks* data, int num_b)
 
 void 	ft_do_push(t_stacks* data, int i)
 {
-	int 	rb;
-	int 	ra;
-	int 	rra = 0;
-	int		rrb = 0;
-	int 	rr = 0;
-	int 	rrr = 0;
+	size_t	rb;
+	size_t	ra;
+	size_t	rra = 0;
+	size_t	rrb = 0;
+	size_t 	rr = 0;
+	size_t 	rrr = 0;
 	int 	num_b;
 	size_t 	size_a;
 	size_t 	size_b;

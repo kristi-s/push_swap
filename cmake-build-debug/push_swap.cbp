@@ -193,6 +193,9 @@
 		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strchr.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strcmp.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strdup.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -233,6 +236,12 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/kristinasmirnova/21_school/new_push_swap — копия/operations.c">

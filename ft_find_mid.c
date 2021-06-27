@@ -10,7 +10,7 @@ int		compare(const void* n1, const void* n2)
 	return *(int*)n1 - *(int*)n2;
 }
 
-void			ft_find_mid(char *str,t_stacks* data)
+void			ft_find_mid(t_stacks* data)
 {
 	int			half_count;
 

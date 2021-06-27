@@ -41,7 +41,7 @@ int		ft_check_arg(char *str)
 
 int 	ft_check_repeat(t_stacks* data)
 {
-	int i = 0;
+	size_t i = 0;
 
 	while (i < data->count - 1)
 	{

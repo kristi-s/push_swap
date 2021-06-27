@@ -467,9 +467,22 @@ CMakeFiles/push_swap.dir/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_strchr.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strchr.c" -o CMakeFiles/push_swap.dir/libft/ft_strchr.c.s
 
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o: ../libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strcmp.c"
+
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/ft_strcmp.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strcmp.c" > CMakeFiles/push_swap.dir/libft/ft_strcmp.c.i
+
+CMakeFiles/push_swap.dir/libft/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/ft_strcmp.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strcmp.c" -o CMakeFiles/push_swap.dir/libft/ft_strcmp.c.s
+
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/push_swap.dir/libft/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/libft/ft_strdup.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strdup.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strdup.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strdup.c.i: cmake_force
@@ -482,7 +495,7 @@ CMakeFiles/push_swap.dir/libft/ft_strdup.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strjoin.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strjoin.c.i: cmake_force
@@ -495,7 +508,7 @@ CMakeFiles/push_swap.dir/libft/ft_strjoin.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strlcat.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strlcat.c.i: cmake_force
@@ -508,7 +521,7 @@ CMakeFiles/push_swap.dir/libft/ft_strlcat.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.o: ../libft/ft_strlcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strlcpy.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.i: cmake_force
@@ -521,7 +534,7 @@ CMakeFiles/push_swap.dir/libft/ft_strlcpy.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strlen.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap.dir/libft/ft_strlen.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strlen.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strlen.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strlen.c.i: cmake_force
@@ -534,7 +547,7 @@ CMakeFiles/push_swap.dir/libft/ft_strlen.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strmapi.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strmapi.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strmapi.c.i: cmake_force
@@ -547,7 +560,7 @@ CMakeFiles/push_swap.dir/libft/ft_strmapi.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strncmp.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strncmp.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strncmp.c.i: cmake_force
@@ -560,7 +573,7 @@ CMakeFiles/push_swap.dir/libft/ft_strncmp.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strnstr.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strnstr.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strnstr.c.i: cmake_force
@@ -573,7 +586,7 @@ CMakeFiles/push_swap.dir/libft/ft_strnstr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strrchr.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strrchr.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strrchr.c.i: cmake_force
@@ -586,7 +599,7 @@ CMakeFiles/push_swap.dir/libft/ft_strrchr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_strtrim.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_strtrim.c"
 
 CMakeFiles/push_swap.dir/libft/ft_strtrim.c.i: cmake_force
@@ -599,7 +612,7 @@ CMakeFiles/push_swap.dir/libft/ft_strtrim.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_substr.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_substr.c.o: ../libft/ft_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/push_swap.dir/libft/ft_substr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/libft/ft_substr.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_substr.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_substr.c"
 
 CMakeFiles/push_swap.dir/libft/ft_substr.c.i: cmake_force
@@ -612,7 +625,7 @@ CMakeFiles/push_swap.dir/libft/ft_substr.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_tolower.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/libft/ft_tolower.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_tolower.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_tolower.c"
 
 CMakeFiles/push_swap.dir/libft/ft_tolower.c.i: cmake_force
@@ -625,7 +638,7 @@ CMakeFiles/push_swap.dir/libft/ft_tolower.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/libft/ft_toupper.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/libft/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/libft/ft_toupper.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/ft_toupper.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/libft/ft_toupper.c"
 
 CMakeFiles/push_swap.dir/libft/ft_toupper.c.i: cmake_force
@@ -638,7 +651,7 @@ CMakeFiles/push_swap.dir/libft/ft_toupper.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_check_arg.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_check_arg.c.o: ../ft_check_arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/push_swap.dir/ft_check_arg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/push_swap.dir/ft_check_arg.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_check_arg.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_check_arg.c"
 
 CMakeFiles/push_swap.dir/ft_check_arg.c.i: cmake_force
@@ -651,7 +664,7 @@ CMakeFiles/push_swap.dir/ft_check_arg.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_create_stack.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_create_stack.c.o: ../ft_create_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/push_swap.dir/ft_create_stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/ft_create_stack.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_create_stack.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_create_stack.c"
 
 CMakeFiles/push_swap.dir/ft_create_stack.c.i: cmake_force
@@ -664,7 +677,7 @@ CMakeFiles/push_swap.dir/ft_create_stack.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_error.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_error.c.o: ../ft_error.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/push_swap.dir/ft_error.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/ft_error.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_error.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_error.c"
 
 CMakeFiles/push_swap.dir/ft_error.c.i: cmake_force
@@ -677,7 +690,7 @@ CMakeFiles/push_swap.dir/ft_error.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/utility.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/utility.c.o: ../utility.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/push_swap.dir/utility.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/utility.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/utility.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/utility.c"
 
 CMakeFiles/push_swap.dir/utility.c.i: cmake_force
@@ -690,7 +703,7 @@ CMakeFiles/push_swap.dir/utility.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/operations.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/operations.c.o: ../operations.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/push_swap.dir/operations.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/operations.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/operations.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/operations.c"
 
 CMakeFiles/push_swap.dir/operations.c.i: cmake_force
@@ -703,7 +716,7 @@ CMakeFiles/push_swap.dir/operations.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/for_debug.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/for_debug.c.o: ../for_debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/push_swap.dir/for_debug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/push_swap.dir/for_debug.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/for_debug.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/for_debug.c"
 
 CMakeFiles/push_swap.dir/for_debug.c.i: cmake_force
@@ -716,7 +729,7 @@ CMakeFiles/push_swap.dir/for_debug.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_find_mid.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_find_mid.c.o: ../ft_find_mid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/push_swap.dir/ft_find_mid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/push_swap.dir/ft_find_mid.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_find_mid.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_find_mid.c"
 
 CMakeFiles/push_swap.dir/ft_find_mid.c.i: cmake_force
@@ -729,7 +742,7 @@ CMakeFiles/push_swap.dir/ft_find_mid.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_sort_stack.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_sort_stack.c.o: ../ft_sort_stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/push_swap.dir/ft_sort_stack.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/push_swap.dir/ft_sort_stack.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_sort_stack.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_sort_stack.c"
 
 CMakeFiles/push_swap.dir/ft_sort_stack.c.i: cmake_force
@@ -742,7 +755,7 @@ CMakeFiles/push_swap.dir/ft_sort_stack.c.s: cmake_force
 
 CMakeFiles/push_swap.dir/ft_create_stack_2.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/ft_create_stack_2.c.o: ../ft_create_stack_2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/push_swap.dir/ft_create_stack_2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/push_swap.dir/ft_create_stack_2.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/ft_create_stack_2.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_create_stack_2.c"
 
 CMakeFiles/push_swap.dir/ft_create_stack_2.c.i: cmake_force
@@ -753,9 +766,35 @@ CMakeFiles/push_swap.dir/ft_create_stack_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/ft_create_stack_2.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/kristinasmirnova/21_school/new_push_swap — копия/ft_create_stack_2.c" -o CMakeFiles/push_swap.dir/ft_create_stack_2.c.s
 
+CMakeFiles/push_swap.dir/op_few_cmd.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/op_few_cmd.c.o: ../op_few_cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/push_swap.dir/op_few_cmd.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/op_few_cmd.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c"
+
+CMakeFiles/push_swap.dir/op_few_cmd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/op_few_cmd.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c" > CMakeFiles/push_swap.dir/op_few_cmd.c.i
+
+CMakeFiles/push_swap.dir/op_few_cmd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/op_few_cmd.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_few_cmd.c" -o CMakeFiles/push_swap.dir/op_few_cmd.c.s
+
+CMakeFiles/push_swap.dir/op_rotate.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/op_rotate.c.o: ../op_rotate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/push_swap.dir/op_rotate.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/op_rotate.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c"
+
+CMakeFiles/push_swap.dir/op_rotate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/op_rotate.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c" > CMakeFiles/push_swap.dir/op_rotate.c.i
+
+CMakeFiles/push_swap.dir/op_rotate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/op_rotate.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/kristinasmirnova/21_school/new_push_swap — копия/op_rotate.c" -o CMakeFiles/push_swap.dir/op_rotate.c.s
+
 CMakeFiles/push_swap.dir/main.c.o: CMakeFiles/push_swap.dir/flags.make
 CMakeFiles/push_swap.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/push_swap.dir/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/push_swap.dir/main.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/main.c.o   -c "/Users/kristinasmirnova/21_school/new_push_swap — копия/main.c"
 
 CMakeFiles/push_swap.dir/main.c.i: cmake_force
@@ -798,6 +837,7 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_split.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_strchr.c.o" \
+"CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_strdup.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o" \
 "CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o" \
@@ -820,6 +860,8 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/ft_find_mid.c.o" \
 "CMakeFiles/push_swap.dir/ft_sort_stack.c.o" \
 "CMakeFiles/push_swap.dir/ft_create_stack_2.c.o" \
+"CMakeFiles/push_swap.dir/op_few_cmd.c.o" \
+"CMakeFiles/push_swap.dir/op_rotate.c.o" \
 "CMakeFiles/push_swap.dir/main.c.o"
 
 # External object files for target push_swap
@@ -855,6 +897,7 @@ push_swap: CMakeFiles/push_swap.dir/libft/ft_putnbr_fd.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_putstr_fd.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_split.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_strchr.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/ft_strcmp.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_strdup.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_strjoin.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/ft_strlcat.c.o
@@ -877,10 +920,12 @@ push_swap: CMakeFiles/push_swap.dir/for_debug.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_find_mid.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_sort_stack.c.o
 push_swap: CMakeFiles/push_swap.dir/ft_create_stack_2.c.o
+push_swap: CMakeFiles/push_swap.dir/op_few_cmd.c.o
+push_swap: CMakeFiles/push_swap.dir/op_rotate.c.o
 push_swap: CMakeFiles/push_swap.dir/main.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/kristinasmirnova/21_school/new_push_swap — копия/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

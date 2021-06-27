@@ -20,5 +20,7 @@ add_executable(push_swap
         ft_find_mid.c
         ft_sort_stack.c
         ft_create_stack_2.c
+        op_few_cmd.c
+        op_rotate.c
         main.c
         push_swap.h)
