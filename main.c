@@ -1,15 +1,21 @@
-//
-// Created by Donny Roslyn on 6/13/21.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/27 15:27:45 by droslyn           #+#    #+#             */
+/*   Updated: 2021/07/06 17:03:51 by droslyn          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
-
-int		main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
-	if (argc > 1)
-		ft_creat_stack_new(argv[1]);
+	if (argc == 1)
+		return (0);
 	else
-		return (ft_error());
-
+		ft_main_body(argc, argv);
 }
-

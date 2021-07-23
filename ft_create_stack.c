@@ -1,40 +1,22 @@
-//
-// Created by Donny Roslyn on 6/13/21.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_create_stack.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/29 09:06:00 by droslyn           #+#    #+#             */
+/*   Updated: 2021/06/29 09:08:13 by droslyn          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "push_swap.h"
 
-
-/*
-void	ft_creat_stack(char *str)
+void	ft_creat_stack_A(char *str, t_stacks *data, int i)
 {
-	t_stacks* data;
-	if (ft_check_arg(str))
-	{
-		ft_error();
-		return ;
-	}
-
-	data = ft_init_struct();
-	ft_creat_stack_A(str, data);
-	if (data->count > 5)
-		ft_find_mid(data);
-//	TODO дописать сортировку если мало элементов
-
-
-	ft_sort_stack(data);
-
-//	proverka(data); // delete this !!!
-
-}*/
-
-void	ft_creat_stack_A(char *str, t_stacks* data)
-{
-	int	i;
-	int* num;
-	int	n;
-	t_list* new_list;
-	int max_1 = 0;
-	int min;
+	int		*num;
+	int		n;
+	t_list	*new_list;
 
 	i = 0;
 	while (str[i] != '\0')
@@ -42,29 +24,19 @@ void	ft_creat_stack_A(char *str, t_stacks* data)
 		if (ft_isdigit(str[i]) || str[i] == '-')
 		{
 			n = ft_atoi(&str[i]);
-			if (i == 0 || n > max_1)
-				max_1 = n;
-			if (i == 0 || n < min)
-				min = n;
 			num = ft_new_int_content(n);
 			new_list = ft_lstnew(num);
 			if (!new_list)
-			{
-				ft_error();
-				exit(1);
-			}
+				ft_error_and_exit();
 			if (!data->stack_A)
 				data->stack_A = new_list;
 			else
 				ft_lstadd_back(&data->stack_A, new_list);
 			data->count++;
-			while(ft_isdigit(str[i]) || str[i] == '-')
+			while (ft_isdigit(str[i]) || str[i] == '-' )
 				i++;
 		}
 		else
 			i++;
 	}
-	data->max = max_1;
-	data->min = min;
-//	printf("max = %d\t min = %d\n", data->max, data->min);
 }

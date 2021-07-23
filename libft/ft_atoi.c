@@ -3,22 +3,29 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: droslyn <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 21:39:21 by droslyn           #+#    #+#             */
-/*   Updated: 2020/11/05 18:14:27 by droslyn          ###   ########.fr       */
+/*   Updated: 2021/07/02 13:11:45 by droslyn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-static int			ft_isspace(char c)
+static int	ft_isspace(char c)
 {
-	if (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f' ||
+	if (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f' || \
 			c == '\r')
 		return (1);
 	return (0);
 }
 
-int					ft_atoi(const char *str)
+static int	ft_more_int(int minus)
+{
+	if (minus > 0)
+		return (-1);
+	return (0);
+}
+
+int	ft_atoi(const char *str)
 {
 	unsigned int	res;
 	int				minus;
@@ -37,9 +44,9 @@ int					ft_atoi(const char *str)
 	}
 	while (*str >= '0' && *str <= '9')
 	{
-		if (i == 10 || (i == 9 && (((res * 10 + (*str - '0')) > 2147483648) ||
+		if (i == 10 || (i == 9 && (((res * 10 + (*str - '0')) > 2147483648) || \
 				((res * 10 + (*str - '0')) > 2147483647 && minus == 1))))
-			return (minus > 0 ? -1 : 0);
+			return (ft_more_int(minus));
 		res = res * 10 + (*str - '0');
 		str++;
 		i++;

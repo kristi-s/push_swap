@@ -1,14 +1,22 @@
-//
-// Created by Donny Roslyn on 6/13/21.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   operations.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/27 15:37:36 by droslyn           #+#    #+#             */
+/*   Updated: 2021/06/27 15:46:43 by droslyn          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	op_swap(t_list** lst, int flag_write)
+void	op_swap(t_list **lst, int flag_write)
 {
-	t_list*	lst_end;
-	t_list* lst_1;
-	t_list* lst_2;
+	t_list	*lst_end;
+	t_list	*lst_1;
+	t_list	*lst_2;
 
 	if (!lst || !*lst || !(*lst)->next)
 		return ;
@@ -24,7 +32,7 @@ void	op_swap(t_list** lst, int flag_write)
 		write(1, "sb\n", 3);
 }
 
-void	op_swap_all(t_list**	lst_A, t_list**	lst_B, int flag_write)
+void	op_swap_all(t_list **lst_A, t_list **lst_B, int flag_write)
 {
 	op_swap(lst_A, NO_WRITE);
 	op_swap(lst_B, NO_WRITE);
@@ -32,10 +40,10 @@ void	op_swap_all(t_list**	lst_A, t_list**	lst_B, int flag_write)
 		write(1, "rr\n", 3);
 }
 
-void 	op_push(t_list**	lst_A, t_list**	lst_B, int flag_write) // from A to B
+void	op_push(t_list **lst_A, t_list **lst_B, int flag_write)
 {
-	t_list*	lst_end;
-	t_list* lst_1;
+	t_list	*lst_end;
+	t_list	*lst_1;
 
 	if (!lst_A || !lst_B || !*lst_A)
 		return ;
@@ -48,6 +56,3 @@ void 	op_push(t_list**	lst_A, t_list**	lst_B, int flag_write) // from A to B
 	else if (flag_write == STACK_B)
 		write(1, "pb\n", 3);
 }
-
-
-

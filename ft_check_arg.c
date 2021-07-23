@@ -1,20 +1,23 @@
-//
-// Created by Donny Roslyn on 6/13/21.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_check_arg.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/28 14:40:17 by droslyn           #+#    #+#             */
+/*   Updated: 2021/07/01 21:07:16 by droslyn          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
 
-int		ft_check_arg(char *str)
+int	ft_check_arg(char *str, int i, int count_num, char *ptr)
 {
-	int i = 0;
-	int count_num = 0;
-	char*	ptr;
-
-	// TODO write ft_check
-	while(str[i])
+	while (str[i])
 	{
 		if (!ft_isdigit(str[i]) && str[i] != '-' && str[i] != ' ')
-			return 1;
+			return (1);
 		if (ft_isdigit(str[i]))
 		{
 			if (count_num == 0)
@@ -24,33 +27,30 @@ int		ft_check_arg(char *str)
 				else
 					ptr = &str[i];
 			}
-
 			count_num++;
 			if (count_num == 10)
 			{
 				if (ft_atoi(ptr) == -1 || ft_atoi(ptr) == 0)
-					return 1;
+					return (1);
 			}
 		}
 		if (str[i] == ' ')
 			count_num = 0;
 		i++;
 	}
-	return 0; //if OK
+	return (0);
 }
 
-int 	ft_check_repeat(t_stacks* data)
+int	ft_check_repeat(t_stacks *data)
 {
-	size_t i = 0;
+	int	i;
 
+	i = 0;
 	while (i < data->count - 1)
 	{
 		if (data->arr[i] == data->arr[i + 1])
-		{
-			ft_error();
-			exit(1);
-		}
+			ft_error_and_exit();
 		i++;
 	}
-	return 0;
+	return (0);
 }

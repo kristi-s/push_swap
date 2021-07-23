@@ -1,27 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_return.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/10/31 21:51:20 by droslyn           #+#    #+#             */
-/*   Updated: 2021/07/02 13:54:40 by droslyn          ###   ########.fr       */
+/*   Created: 2021/07/02 14:34:27 by droslyn           #+#    #+#             */
+/*   Updated: 2021/07/06 17:03:18 by droslyn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../push_swap.h"
 
-char	*ft_strdup(const char *s1)
+void	ft_return(int res)
 {
-	size_t	len;
-	char	*ptr;
-
-	len = ft_strlen(s1);
-	ptr = malloc((len + 1) * sizeof(char));
-	if (!ptr)
-		return (0);
-	ptr = ft_memcpy(ptr, s1, len);
-	ptr[len] = '\0';
-	return (ptr);
+	if (res == OK)
+	{
+		write(1, "OK\n", 3);
+		exit(0);
+	}
+	else
+	{
+		write(1, "KO\n", 3);
+		exit(0);
+	}
 }

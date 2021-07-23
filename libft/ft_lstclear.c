@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: droslyn <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/03 18:04:51 by droslyn           #+#    #+#             */
-/*   Updated: 2020/11/04 18:09:36 by droslyn          ###   ########.fr       */
+/*   Updated: 2021/07/02 13:20:33 by droslyn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-	t_list *ptr;
-	t_list *ptr_next;
+	t_list	*ptr;
+	t_list	*ptr_next;
 
 	if (!lst || !(*del))
 		return ;

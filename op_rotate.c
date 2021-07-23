@@ -1,13 +1,21 @@
-//
-// Created by Кристина Смирнова on 26.06.2021.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   op_rotate.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/06/27 15:47:02 by droslyn           #+#    #+#             */
+/*   Updated: 2021/06/27 15:48:24 by droslyn          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	op_rotate(t_list**	lst, int flag_write)
+void	op_rotate(t_list **lst, int flag_write)
 {
-	t_list* lst_1;
-	t_list* lst_2;
+	t_list	*lst_1;
+	t_list	*lst_2;
 
 	if (!lst || !*lst || !(*lst)->next)
 		return ;
@@ -20,22 +28,20 @@ void	op_rotate(t_list**	lst, int flag_write)
 		write(1, "ra\n", 3);
 	else if (flag_write == STACK_B)
 		write(1, "rb\n", 3);
-
 }
 
-void	op_rotate_all(t_list**	lst_A, t_list**	lst_B, int flag_write)
+void	op_rotate_all(t_list **lst_A, t_list **lst_B, int flag_write)
 {
 	op_rotate(lst_A, NO_WRITE);
 	op_rotate(lst_B, NO_WRITE);
 	if (flag_write == WRITE)
 		write(1, "rr\n", 3);
-
 }
 
-void	op_reverse_rotate(t_list**	lst, int flag_write)
+void	op_reverse_rotate(t_list **lst, int flag_write)
 {
-	t_list*	lst_last;
-	t_list* lst_tmp;
+	t_list	*lst_last;
+	t_list	*lst_tmp;
 
 	if (!lst || !*lst || !(*lst)->next)
 		return ;
@@ -53,11 +59,10 @@ void	op_reverse_rotate(t_list**	lst, int flag_write)
 		write(1, "rrb\n", 4);
 }
 
-void	op_reverse_rotate_all(t_list**	lst_A, t_list**	lst_B, int flag_write)
+void	op_reverse_rotate_all(t_list **lst_A, t_list **lst_B, int flag_write)
 {
 	op_reverse_rotate(lst_A, NO_WRITE);
 	op_reverse_rotate(lst_B, NO_WRITE);
 	if (flag_write == WRITE)
 		write(1, "rrr\n", 4);
 }
-

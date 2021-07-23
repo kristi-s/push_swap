@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: droslyn <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: droslyn <droslyn@student.21-school.ru>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/02 19:07:31 by droslyn           #+#    #+#             */
-/*   Updated: 2020/11/06 22:28:59 by droslyn          ###   ########.fr       */
+/*   Updated: 2021/07/02 13:27:48 by droslyn          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int			ft_size_num(unsigned int number, int n)
+static int	ft_size_num(unsigned int number, int n)
 {
-	int				i;
+	int		i;
 
 	i = 0;
 	while (number != 0)
@@ -27,7 +27,7 @@ static int			ft_size_num(unsigned int number, int n)
 	return (i);
 }
 
-void				ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
 	char			str[12];
 	unsigned int	num;
